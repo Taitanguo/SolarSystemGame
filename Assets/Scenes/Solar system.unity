@@ -127,6 +127,7 @@ GameObject:
   - component: {fileID: 415868997}
   - component: {fileID: 415868998}
   - component: {fileID: 415868999}
+  - component: {fileID: 415869000}
   m_Layer: 0
   m_Name: Earth
   m_TagString: Untagged
@@ -358,6 +359,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &415869000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 415868992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a1ebbdfbe8b274fbe85ad9e385dae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &717792232
 GameObject:
   m_ObjectHideFlags: 0
@@ -372,6 +386,7 @@ GameObject:
   - component: {fileID: 717792233}
   - component: {fileID: 717792237}
   - component: {fileID: 717792238}
+  - component: {fileID: 717792239}
   m_Layer: 0
   m_Name: Sun
   m_TagString: Untagged
@@ -562,6 +577,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &717792239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717792232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a1ebbdfbe8b274fbe85ad9e385dae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &1059654935
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,6 +601,7 @@ GameObject:
   - component: {fileID: 1059654938}
   - component: {fileID: 1059654937}
   - component: {fileID: 1059654936}
+  - component: {fileID: 1059654939}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -644,6 +673,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1059654939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059654935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac9f1ae809015974bbe64eb897e638a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1791052807
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,6 +699,7 @@ GameObject:
   - component: {fileID: 1791052808}
   - component: {fileID: 1791052813}
   - component: {fileID: 1791052812}
+  - component: {fileID: 1791052814}
   m_Layer: 0
   m_Name: Moon
   m_TagString: Untagged
@@ -765,6 +807,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 1791052811}
   speed: 20
+--- !u!114 &1791052814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791052807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3a1ebbdfbe8b274fbe85ad9e385dae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
 --- !u!1 &1894853126
 GameObject:
   m_ObjectHideFlags: 0
